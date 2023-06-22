@@ -1,0 +1,38 @@
+.content-details{
+    .banner-item{
+        position: relative;
+        // height: 200px;
+        // width:100%;
+        img{
+            height: 200px;
+            width:100%;
+        }
+    }
+    .play-btn{
+        position: absolute;
+        top:50%;
+        left:50%;
+        transform: translate(-50%,-50%);
+        .play-icon{
+            color: #fff;
+            height: 70px;
+            width: 70px;
+        }
+    }
+    .description{
+        .title{
+            font-size: 20px;
+        }
+        p{
+            font-size: 15px
+        }
+    }
+
+    .add-list{
+        color: #fff;
+        height: 40px;
+        width:40px;
+        margin-right: 5px;
+    }
+
+}
