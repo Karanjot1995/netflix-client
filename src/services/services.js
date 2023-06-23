@@ -1,4 +1,5 @@
-const API_URL = 'http://localhost:8000';
+// const API_URL = 'http://localhost:8000';
+const API_URL = "https://netflix-server-binz.onrender.com"
 
 let postOptions = {
   method: "POST",
